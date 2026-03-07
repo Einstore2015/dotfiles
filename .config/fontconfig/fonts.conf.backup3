@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<!DOCTYPE fontconfig SYSTEM 'urn:fontconfig:fonts.dtd'>
+<fontconfig>
+ <!-- Default system-ui fonts -->
+ <match target="pattern">
+  <test name="family">
+   <string>system-ui</string>
+  </test>
+  <edit binding="strong" mode="prepend" name="family">
+   <string>sans-serif</string>
+  </edit>
+ </match>
+ <!-- Default sans-serif fonts-->
+ <match target="pattern">
+  <test name="family">
+   <string>sans-serif</string>
+  </test>
+  <edit binding="strong" mode="prepend" name="family"/>
+ </match>
+ <dir>~/.local/share/fonts</dir>
+</fontconfig>
