@@ -11,7 +11,7 @@ alias grep='grep --color=auto'
 
 PS1='[\u@\h \W]\$ '
 
-clear && neofetch
+# clear && neofetch
 
 # Oh-My-Posh Config
 # eval "$(starship init bash)"
